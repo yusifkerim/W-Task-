@@ -1,0 +1,16 @@
+@mixin img ($wth,$hgt,$ob_f,$ob_p){
+
+    width: $wth;
+    height: $hgt;
+    object-fit: $ob_f;
+    object-position: $ob_p;
+
+}
+@mixin img2 ($wth,$hgt,$ob_f,$jus_c){
+
+    width: $wth;
+    height: $hgt;
+    object-fit: $ob_f;
+   justify-content: $jus_c;
+    
+}

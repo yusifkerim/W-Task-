@@ -1,0 +1,27 @@
+#menu{
+    .container{
+        .row{
+            margin: 25px 10px;
+            img{
+                width: 70px;
+                height: 35px;
+                cursor: pointer;
+                
+            }
+            .menu_text{
+                justify-content: end;
+                display: flex;
+                gap: 40px;
+                a{
+                    color: black;
+                    text-decoration: none;
+                    font-family: "Inter", sans-serif;
+                    &:hover{
+                        color: $hover-color;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
